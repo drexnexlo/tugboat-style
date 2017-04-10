@@ -1,0 +1,1038 @@
+  html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  font-size: 100%;
+  font: inherit;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  vertical-align: baseline
+}
+
+body {
+  line-height: 1
+}
+
+ol,
+ul {
+  list-style: none
+}
+
+blockquote,
+q {
+  quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block
+}
+
+.clear {
+  clear: both
+}
+
+.sticky {}
+
+.bypostauthor {}
+
+.wp-caption {}
+
+.wp-caption-text {}
+
+.gallery-caption {}
+
+.alignright {}
+
+.alignleft {}
+
+.aligncenter {}
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Passion One', helvetica, arial, sans-serif;
+}
+h2{
+  font-size: 2em;
+  padding-top: .5em;
+}
+ol,
+ul {
+  list-style: none;
+  margin-bottom: 3em;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+.main {
+  padding: 2em;
+  color: black;
+}
+
+header .pure-g {
+  position: fixed;
+  height: auto;
+}
+
+
+/* -----------------------------------------------------------------------------FOOTER ---------*/
+
+hr.style {
+  margin-top: -.01px;
+}
+
+.footer-style {
+  background: #333 none repeat scroll 0% 0%;
+  margin-top: -9px;
+}
+
+a {
+  color: #FFFACD;
+  padding: 1px;
+  text-decoration: none;
+}
+
+.social-media {
+  margin-top: 3em;
+  padding-left: 5em;
+  line-height: 1.5em;
+}
+
+.social-media ul li a {
+  color: #efefef;
+}
+
+.social-media ul li a:hover {
+  color: #FF1493;
+}
+
+.footer-art {
+  color: #fff;
+  background: #333;
+  line-height: .5em;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.dots {
+  color: aliceblue;
+}
+
+.dots:hover {
+  color: #FF1493;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.copyright {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.6;
+  z-index: 30;
+  padding-top: 1em;
+  margin-bottom: 1.6em;
+  color: #efefef;
+}
+
+.wp-post-image {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.textblock {
+  padding: 3em;
+  margin-top: 1em;
+  font-size: 18px;
+  color: #777;
+}
+
+.textblock p {
+  margin-top: 1.6em;
+  line-height: 1.6;
+}
+
+.logo {
+  margin-left: 2em;
+  margin-top: 1.6em;
+}
+
+
+/* --------------------------------------------------------------------------------------Primary style
+
+-------------------------------- */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/*
+html {
+  font-size: 62.5%;
+}
+*/
+
+body {
+  font-size: 1.6rem;
+  line-height: 2em;
+  font-family: 'Comfortaa', sans-serif;
+  color: #0f293d;
+  background-color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  transition: all .1s ease-in-out;
+}
+
+
+
+img {
+  max-width: 100%;
+}
+.hero{
+	margin-top:-10em;
+	}
+	
+.cd-img-replace {
+  /* replace text with image */
+  color: transparent;
+  white-space: nowrap;
+  text-indent: 100%;
+  overflow: hidden;
+}
+
+
+
+/* ---------------------------------------------------MarketingCSS */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', sans-serif;
+}
+
+
+/*
+ * -- BASE STYLES --
+ * Most of these are inherited from Base, but I want to change a few.
+ */
+
+
+
+.pure-img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-weight:500;
+  color: #111;
+  font-size: 18px;
+  margin-top:7em;
+}
+
+
+
+
+/*
+ * ------------------------------------------------------------------------- PURE FORM STYLES --
+ * Style the form inputs and labels
+ */
+
+.pure-form label {
+  margin: 1em 0 0;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+.pure-form input[type] {
+  border: 2px solid #ddd;
+  box-shadow: none;
+  font-size: 100%;
+  width: 100%;
+  margin-bottom: 1em;
+}
+.pure-g{
+  font-family:"comfortaa" sans-serif;
+}
+
+/*
+
+ * ------------------------------------------------------------------ PURE COLUMN STYLES --
+ */
+
+.title {
+  font-size: 64px;
+  letter-spacing: .2em;
+  text-align: center;
+  padding: 1em;
+  line-height: 1.1em;
+  color: #a51e22;
+  height:150px;
+  }
+
+.pure-g .title {
+  font-family: 'Passion One', sans-serif;
+}
+
+
+
+.pure-u-8-24 {
+  text-align: right;
+  font-weight: 600;
+  letter-spacing: .2em;
+}
+
+.event {
+  font-size: 2em;
+  color: #a51e22;
+  line-height: 1.2em;
+  padding: 1em 0;
+}
+
+.hanging-quotes {
+  margin-left: -.3em;
+}
+
+.info-div {
+  padding: 2em .5em 2em 1em;
+  background: #fff;
+  letter-spacing: normal;
+}
+
+.smallprint {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: .1em;
+font-family: 'comfortaa', helvetica,arial, sans serif;
+}
+
+a:hover {
+  color: #777;
+}
+
+.fa-caret-down {
+        color: rgba(255, 0, 0, 0.15);
+
+}
+
+.archive-date {
+  color: #fff;
+  padding-top: .8em;
+}
+
+.archive-info {
+  padding: 3em;
+  color: #333;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.8em;
+  letter-spacing: .5px;
+  padding-bottom: .5em;
+  border-style: solid;
+  border-bottom: thick dotted red;
+}
+
+.archive-info p {
+  font-family: 'Comfortaa', helvetica, arial, sans-serif;
+}
+
+.subtle-background {
+  background: #a51e22;
+color: #fff;
+text-align: right;
+letter-spacing: .1em;
+padding: .7em;
+font-size: 1.5em;
+font-family: 'Passion One', helvetica, arial;
+}
+
+.pure-g .archive-start {
+  border-style: solid;
+  border-top: thin dotted red;
+}
+
+.pure-u-8-24 .pure-u-14-24 .archive-start {
+  background: aliceblue;
+}
+
+.archive-start h3 {
+font-size: 2em;
+    font-weight: 700;
+    color: #a51e22;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    /* padding: 1em; */
+    padding-bottom: .2em;
+    /* padding-top: 1.4em; */
+    padding-top: .3em;
+}
+
+.archive-end {
+  margin-bottom: 3em;
+}
+
+.pure-u-22-24 .archive-start {
+  background: aliceblue;
+  margin-bottom: -1em;
+  z-index: -1;
+}
+
+h3.more-posters {
+  text-align: center;
+  padding-bottom: 7em;
+}
+.poster{
+  padding: 1em;
+  background: #333;
+  box-shadow: 0px 2px 13px #efefef;
+}
+
+.pure-u-1-2 .pure-u-md-1-4{
+  text-align: left;
+}
+
+
+/*-----------------------------------------------------------READ MORE -*/
+
+
+/* -------------------------------------------------------------------------------- MENU STYLES --
+ * I want to customize how my .pure-menu looks at the top of the page
+ */
+
+ul li {
+  list-style: none;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  letter-spacing: .2em;
+  color: #a51e22;
+  list-style: none;
+  font-size: 2em;
+font-weight: 100;
+line-height: 1.6em;
+}
+
+
+/* We want to give the content area some more padding */
+
+.content {
+  padding: 1em 1em 3em;
+}
+
+
+/* This is the class used for the main content headers (<h2>) */
+
+
+
+.pure-menu-horizontal {
+  margin-top: 0 !important;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  background: #111;
+  height: 5em;
+}
+
+.pure-menu-horizontal a {
+  font-size: 1em;
+  color: #fff;
+  padding: 0;
+  
+}
+
+.pure-menu-horizontal a:hover {
+  color: hotpink;
+}
+
+.tugboat {
+  background: #111;
+  font-size: 5em;
+  line-height: normal;
+  color: #fff;
+  text-align: center;
+}
+
+.pure-u-8-24 a {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.pure-u-8-24 a:hover {
+  color: hotpink;
+  font-size: 1.1em;
+}
+
+.nav-cust{
+  margin-top:5em;
+  height:2.25em;
+  z-index:-1;
+  background:#222;
+  text-align:center;
+}
+
+.nav-cust a {
+  padding-top:.25em;
+  font-family:'comfortaa',sans-serif;
+  font-size: 1.5em;
+  letter-spacing: .2em;
+  color: #fff;
+  text-align:center;
+  
+}
+
+/* This is the class used for the footer */
+.footer {
+  background: #111;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.pure-menu-link:hover {
+  background-color:#222;
+}
+/* ----------------------------------------------March 20 addition 
+
+-------------------------------- */
+.contact-start {
+  margin-top: 2em;
+  margin-bottom: 7em;
+}
+.contact-start h2 {
+  font-size: 20px;
+  color: #333;
+  padding-bottom: 1em;
+  padding-left:3em;
+}
+.contact-us {
+  font-family:'comfortaa',sans-serif;
+  text-align:center;
+  color: #a51e22;
+  font-size:2em;
+}
+.contact-left {
+  background: hotpink;
+  padding-right:0;
+  margin-bottom: -1em;
+  z-index: -1;
+}
+.form-group{
+  text-align:center;
+}
+.pure-u-1-24 {
+  margin-top: -5em;
+  margin-bottom: -1em;
+  z-index: -1;
+}
+
+/* --------------------------------                                      GALLERY */
+.l-box {
+  padding: .2em;
+  text-align: center;
+
+}
+.pure-img{
+  display: inline-grid;
+}
+.wrap {
+  overflow: hidden;
+  margin: 10px;
+}
+.l-box-lrg {
+  padding: 2em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.is-center {
+  text-align: center;
+}
+.box {
+  float: left;
+  position: relative;
+  width: 20%;
+  padding-bottom: 20%;
+}
+.boxInner {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+  overflow: hidden;
+}
+.boxInner img {
+  width: 100%;
+}
+.boxInner .titleBox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: -50px;
+  background: #000;
+  background: rgba(0, 0, 0, 0.5);
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+body.no-touch .boxInner:hover .titleBox,
+body.touch .boxInner.touchFocus .titleBox {
+  margin-bottom: 0;
+}
+.caption{
+  font-size:.75em;
+  font-style:italic;
+  color: #333;
+    text-align:right;
+  padding-right:2.5em;
+  margin-top:-1em;
+  letter-spacing: normal;
+}
+.l-box.caption{
+  text-align: center;
+}
+.show-top{
+      border-bottom-color: rgba(255, 0, 0, 0.15);
+    border-bottom-width: thick;
+    border-style: dotted;
+}
+
+.smaller-img{
+  resize: 50%
+}
+
+
+/* ------------------------------------------------------------------------_ABOUT US ---*/
+
+.padding-l-bottom{
+  padding-bottom:4em;
+  padding-left:1em;
+}
+.padding-m-top-left{
+  padding-top:4em;
+}
+.first-p{
+  margin-top:6em;
+}
+.first-p-padding{
+  padding-top:6em;
+}
+.border-bottom{
+     border-bottom-style: dashed;
+    border-bottom-width: 2px;
+    border-bottom-color: hotpink;
+    margin-bottom: .5em;
+}
+
+.more{
+  font-size: .75em;
+}
+
+
+
+/* -----------------------------------------MOBILE SIZING -------*/
+@media (max-width:68em) {
+
+
+   .tugboat {
+      padding-top:.2em;
+      font-size:4em;
+}
+.hero{
+	margin-top:-5em;
+	}
+  .contact-left{
+  margin-top:2em;
+}
+}
+
+@media (max-width:48em) {
+
+  body{
+    margin-top:2em;
+  }
+  .caption{
+    font-size:8px;
+  }
+      .title {
+      font-size: 2.5em;
+      margin-top:2em;
+    }
+    .tugboat {
+      padding-top:.2em;
+      font-size:2em;
+    }
+.info-div ul li a{
+  font-size: 1.5em;
+}
+.hero{
+	margin-top:3em;
+	}
+  .pure-menu-horizontal{
+    height:3em;
+  }
+  .nav-cust{
+    height:.25em;
+  }
+  .nav-cust a {
+    font-size: 1em;
+    margin-top: -1.8em;
+    font-family: 'comfortaa';
+}
+  .box {
+    width: 50%;
+    padding-bottom: 50%;
+  }
+  .padding-m-top-left{
+  padding-top:.5em;
+}
+.info-div{
+  padding-top:0;
+}
+.more{
+  font-size: .5em;
+}
+.archive-start h3 {
+    font-size: 1.3em;
+    padding-top: 2em;
+}
+.archive-date {
+    padding-top: 1.8em;
+    font-size: 1em;
+}
+.archive-info{
+  padding:0;
+  margin-top:-2em;
+}
+.contact-left{
+  margin-top:4em;
+}
+}
+@media (max-width: 29em) {
+
+.info-div ul li a{
+  font-size: 1.25em;
+}
+
+
+}
+
+
+@media (max-width: 22em) {
+    .title {
+      font-size: 2em;
+      margin-top:2.5em;
+    }
+    .tugboat {
+      padding-top:.5em;
+ font-size:1.5em;
+}
+   .nav-cust{
+    height:.15em;
+  }
+  .nav-cust a {
+    font-size: .75em;
+    margin-top: -2.8em;
+    font-family: 'comfortaa';
+}
+.info-div ul li a{
+  font-size: 1em;
+}
+}
+@media (max-width: 17em) {
+ 
+    .tugboat {
+      padding-top:1em;
+ font-size:1em;
+}
+  .nav-cust a{
+    padding-top:-8px;
+    font-size:8px;
+  }
+  .nav-cust a:hover{
+    
+  }
+}
+  /*
+ * ------------------------------------------------------------------------- TABLET (AND UP) MEDIA QUERIES --
+ * On tablets and other medium-sized devices, we want to customize some
+ * of the mobile styles.
+ */
+  
+  @media (min-width: 48em) {
+    /* We increase the body font size */
+    body {
+      font-size: 16px;
+    }
+
+    /* We remove the border-separator assigned to .l-box-lrg */
+    .l-box-lrg {
+      border: none;
+    }
+  }
+  
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
+
